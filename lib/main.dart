@@ -1,4 +1,4 @@
-import 'package:bloc_statemanagement/bloc/counterBloc/counter_bloc.dart';
+import 'package:bloc_statemanagement/bloc/CounterBloc/counter_bloc.dart';
 import 'package:bloc_statemanagement/go_router/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
