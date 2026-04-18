@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class CounterPage extends StatefulWidget {
@@ -11,6 +10,14 @@ class CounterPage extends StatefulWidget {
 class _CounterPageState extends State<CounterPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(onPressed: () {}, child: Icon(Icons.add)),
+      body: Center(
+        child: Text(
+          "Hello",
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: Colors.black),
+        ),
+      ),
+    );
   }
 }
